@@ -1,5 +1,5 @@
-from .material import *
-from utils import *
+from material.material import Material
+from utils import random_in_unit
 from ray import *
 
 class Lambertian(Material):

@@ -1,5 +1,5 @@
-from .hitable import *
-from hitrec import *
+from shape.hitable import Hitable
+from hitrec import HitRec
 
 class ShapeList(Hitable):
   def __init__(self, list):
